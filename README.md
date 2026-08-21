@@ -1,4 +1,4 @@
-This is the supplementary materials for the article:
+This is the Supplementary materials for the article:
 A. I. Kartamyshev, S. V. Levchenko, D. A. Aksyonov, A. O. Boev. Atlas of heteroatomic chemical affinity in bcc Fe
 
 Content:
