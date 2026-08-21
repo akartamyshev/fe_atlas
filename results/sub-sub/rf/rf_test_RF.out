@@ -1,0 +1,39 @@
+Data:        741 examples and         21 features
+Model: {'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 10, 'max_features': 0.8, 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 5, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 600, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+
+Cross-validation scores: [0.86993122 0.82688744 0.8324724  0.7939385  0.78662125 0.86447966
+ 0.87552037 0.82606367 0.77305163 0.82358525]
+Mean cross-validation score: 0.8272551377986422
+Accuracy on total set: 0.9527985551199175
+Accuracy on training set: 0.9628314200419112
+Accuracy on test set: 0.8569331661499046
+
+Mean absolute error on total set: 0.035 eV
+Mean absolute error on training set: 0.031 eV
+Mean absolute error on test set: 0.063 eV
+
+Feature importances and correlations with target
+\hline
+Feature                   &      Importance, \%       &        Correlation        \\ 
+\hline
+Density\_sum              &           3.158           &          -0.360           \\ 
+Density\_diff             &           1.139           &           0.009           \\ 
+Eneg\_sum                 &           1.406           &           0.224           \\ 
+Eneg\_diff                &           4.655           &           0.221           \\ 
+Magnetic\_sum             &           6.640           &           0.375           \\ 
+Magnetic\_diff            &           2.896           &           0.036           \\ 
+Melting\_sum              &           4.015           &          -0.157           \\ 
+Melting\_diff             &           1.696           &          -0.085           \\ 
+Number\_sum               &          11.549           &          -0.539           \\ 
+Number\_diff              &           1.377           &          -0.000           \\ 
+Radius\_sum               &          34.947           &          -0.604           \\ 
+Radius\_diff              &           3.822           &           0.202           \\ 
+Vacancy\_1\_sum           &           4.586           &          -0.391           \\ 
+Vacancy\_1\_diff          &           1.064           &          -0.171           \\ 
+Vacancy\_2\_sum           &           7.113           &           0.301           \\ 
+Vacancy\_2\_diff          &           1.485           &           0.076           \\ 
+Vacancy\_3\_sum           &           1.411           &          -0.170           \\ 
+Vacancy\_3\_diff          &           1.428           &           0.221           \\ 
+Valence\_sum              &           1.958           &           0.155           \\ 
+Valence\_diff             &           3.652           &           0.416           \\ 
+\hline
