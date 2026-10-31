@@ -1,4 +1,0 @@
-'select_data' duration is 0.284 minutes
-'model_regression_grid_search' duration is 41.673 minutes
-'model_regression_fit' duration is 0.252 minutes
-'model_regression_test_plot' duration is 0.096 minutes
