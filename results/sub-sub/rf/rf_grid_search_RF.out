@@ -1,0 +1,7 @@
+Data:        861 examples and         28 features
+Model: RandomForestRegressor()
+Parameters grid {'n_estimators': [950, 1000, 1050, 1100, 1150], 'max_depth': [8, 9, 10], 'min_samples_split': [5, 10], 'min_samples_leaf': [2, 4], 'max_features': ['sqrt', 0.5, 0.8], 'bootstrap': [True]}
+Best cross-validation score: 0.8387243697170181
+Best parameters: {'bootstrap': True, 'max_depth': 10, 'max_features': 0.8, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 1150}
+Accuracy on test set: 0.864
+Mean absolute error on test set: 0.068 eV
